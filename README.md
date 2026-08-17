@@ -9,7 +9,7 @@ capacidad de parametros, tamaño del contexto y que sea multimodal (con multimod
 con que tenga vision y que acepte archivos pdf o imagenes para su lectura y que pueda pensar (dentro de pensamiento viene inferencia
 y de inferencia viene la capacidad de los tensores y todo eso va con las capacidades ya
 
-##requerimientos
+## requerimientos
 - caddy server 
 - configuraciones de nginex inverso
 - nomenglaturas de quantisacion 
