@@ -3,7 +3,7 @@ hacer un modelo de IA de pesos abiertos usando bases de datos vectoriales como b
 conocimiento para que el modelo sea capaz de consultarla y entregar respuestas sobre
 consultas de documentacion interna 
 
-## modelo de ia
+## modelo de IA
 ollama el gestor de modelos de ia investigar mas sobre que modelos se pueden gestinar en este mismo.
 capacidad de parametros, tamaño del contexto y que sea multimodal (con multimodal se refiere a que sea cualquier tipo de archivo)
 con que tenga vision y que acepte archivos pdf o imagenes para su lectura y que pueda pensar (dentro de pensamiento viene inferencia
@@ -19,4 +19,12 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 - streaming de respuestas
 - 89gb de ram y tal vez 24gb de vram
 - el modelo se corre de forma local
+
+## referencias
+### primera semana:
+- hugging face LLM curso: https://huggingface.co/learn/llm-course/chapter1/1?utm_source=chatgpt.com
+- transformers: https://arxiv.org/abs/1706.03762?utm_source=chatgpt.com
+- Hugging Face Tokenizers: https://huggingface.co/docs/tokenizers/main/index?utm_source=chatgpt.com
+- Hugging Face Quantization: https://huggingface.co/docs/bitsandbytes/main/en/index?utm_source=chatgpt.com
+- pytorch cuda: https://docs.pytorch.org/docs/2.13/cuda.html?utm_source=chatgpt.com
 
