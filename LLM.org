@@ -1,1 +1,64 @@
-* fundamentos de LLM
+* Que es lo que es un NLP?
+Un NLP basicamente es un modelo de machine learning enfocado a todo lo relacionado con el lenguaje humano
+
+
+** para que sirven los NLP?
+los NLP tiene tareas basntate claras:
+- la clasificacion de oraciones
+- generar texto
+- extraer una respuesta de un texto 
+
+* Que es un LLM
+basicamente son similares a los modelos NLP pero son mucho mas grandes y con mas entrenamiento y mas capacidada parra realizar
+tareas no especificas
+
+** Caracteristicas de un LLM
+- Escalado
+- capacidades generadas
+- aprendizaje en contexto
+
+
+** limitaciones de LLM
+- alucinaciones
+- falta de entendimiento
+- consumo computacional
+
+
+* Transformer
+los transformer son la arquitectura en que los LLM estan basados son NLP gigantes multiproposito pueden autocompletas palabras o intentar predecir oraciones futuras
+asi como intentar predecir palabras especificas en una oracion
+
+** tipos de aprendizaje
+existen 2 tipos principales de aprendizaje cada uno con sus ventajas y desventajas de una forma mas generalizada sabemos esto:
+- Pretaining: el pretraining es le acto de entrenar un modelo desde cero con sus pesos ajustados de manera aleatoria y se van
+  ajustando a medida que es entrenado
+- Fine-tuning: es el entrenamiento de un modelo preentrenado con data especifica para realizar la tarea especifica a realizar
+
+
+** arquitectura
+la arquitectura de los transformers consiste en 2 bloques los cuales son el *encoder* y el *decoder*.
+- encoder: es la capa que recibe el input y lo transforma en a una represetacion
+- decoder: se encarga de trabajar con la representacion del encoder y brinda un output en para la tarea objetivo
+
+la arquictetura de los modelos puede variar pero siempre usan almenos uno de estos dos bloques en su arquitectura. Hay modelos
+que solo usan una de estas capas esto depende de el objetivo y la tarea de dichos modelos
+- solo encoder: cuando un modelo usa de arquitectura solo en encoder este mismo solo suele usarse para tareas que requieran un buen
+  entendiemiento del input asi como clasificaciones de palabras o nombrar entidades del mismo input
+- solo decoder: suelen usarse en tareas como la generaciones de texto
+- ambos: sueln ser usados en tareas que requieren un input y un output como lo pueden ser resumenes o traducciones
+
+
+*** checkpoints
+un concepto a destacar son los *checkpoints* los cuales son pesos preentrenados que seran cargados en un arquitectura.
+suelen ser confundidos con la misma *arquitectura* del modelo pero son conceptos totalmente diferentes
+
+
+** atention layer
+la capa de atencion es el comportamiento sobre el modelo que hace que le ponga mas o menos atencion a algunas palabras esto es util
+para traducir cosas o realizar tareas especificas 
+
+
+** atention mask
+similar a la capa de atencion la mascara de atencion sirve para poder dar mas enfasis o quitar enfasis a palabras especificas
+
+
