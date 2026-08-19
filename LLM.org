@@ -94,16 +94,16 @@ terminologias que se usan para poder entender como y para que esta comprimido el
 
 
 ** Cosas a considerar
-entonces porque no siempre escojemos el formato mas comprimido de todos? para responder esta pregunta 
-es necesario entender que no siempre mas pequeño significa mas rapido puede ser que el el procesador con el que
-se trabaje no tenga rutinas para manejar el numero de bits en que se encuentran en el formato entonces el estos
-se descomprimen y luego se opera con ellos esto da como resultado que el proceso llegue incluso a alentarse!
+entonces porque no siempre escojemos el formato mas comprimido de todos? para responder esta pregunta qes necesario entender que no siempre mas pequeño significa mas rapido puede ser que el el procesador con el que se trabaje no tenga rutinas para manejar el numero de bits en que se encuentran en el formato entonces el estos se descomprimen y luego se opera con ellos esto da como resultado que el proceso llegue incluso a alentarse!
 
-tambien entre mas comprimido sea el modelo mas tiende a atontarse lo cual en tareas sensibles no es aceptable tener
-un margen de error alto.
+tambien entre mas comprimido sea el modelo mas tiende a atontarse lo cual en tareas sensibles no es aceptable tener un margen de error alto.
+
+
+* RAG
+es una arquitectura que se basa en tener una fuentes de datos en tiempo real la cual es su fuente de conocimientos por la cual el modelo puede consultar informacion en base a la consulta los beneficios de esta misma es que es menos costosa en terminos de memoria y requiere menos entrenamiento
 
 
 * Pensamientos
-RAG son LLM pero si es que el modelo no es LLM aun asi podremos generar una arquitectura para el uso de una fuente
-de datos externa para poder realizar esto mismo? me explico lo que agus quiere es un LLM? o un NLP? porque un LLM
-esta hecho para engrentar tareas no especificas esto da como 
+RAG son LLM pero si es que el modelo no es LLM aun asi podremos generar una arquitectura para el uso de una fuente de datos externa para poder realizar esto mismo? me explico lo que agus quiere es un LLM? o un NLP? porque un LLM esta hecho para engrentar tareas no especificas esto da como. segun el siguiente articulo [[https://arxiv.org/pdf/2601.05264][engineering a RAG]] los modelos RAG no requieren entrenamiento?
+
+="Initially, the necessity for costly and time-consuming model retraining is eliminated by ensuring that information currency is maintained through real-time access"=

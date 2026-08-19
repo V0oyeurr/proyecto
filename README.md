@@ -20,6 +20,13 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 - 89gb de ram y tal vez 24gb de vram
 - el modelo se corre de forma local
 
+
+## motores de bases de datos vectoriales
+- Qdrant: https://qdrant.tech/
+- Pinecone: https://www.pinecone.io/
+- pgvector: https://github.com/pgvector/pgvector
+
+
 ## referencias
 ### primera semana:
 - hugging face LLM curso: https://huggingface.co/learn/llm-course/chapter1/1?utm_source=chatgpt.com
@@ -28,3 +35,5 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 - Hugging Face Quantization: https://huggingface.co/docs/bitsandbytes/main/en/index?utm_source=chatgpt.com
 - pytorch cuda: https://docs.pytorch.org/docs/2.13/cuda.html?utm_source=chatgpt.com
 - arquitectura RAG(articulo): https://arxiv.org/pdf/2601.05264
+- building a RAG: https://huggingface.co/blog/ngxson/make-your-own-rag
+- BD Vector theory (articulo): https://dbs-research.github.io/pdf/2024_vector.pdf
