@@ -64,12 +64,7 @@ para traducir cosas o realizar tareas especificas
 
 
 ** atention mask
-similar a la capa de atencion la mascara de atencion sirve para poder dar mas enfasis o quitar enfasis a palabras especificas
-
-
-* Cuantizacion
-la cuantizacion es la compresion del modelo se puede tener un modelo el cual pese muchisimo menos dando resultados
-similares al modelo completo.
+similar a la capa de atencion la mascara de atencion sirve para poder dar masares al modelo completo.
 
 
 ** Como funciona?
