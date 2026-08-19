@@ -1,3 +1,5 @@
+#+title:LLM Investigacion
+#+author:Alberto Emiliano Solis Santos
 * Que es lo que es un NLP?
 Un NLP basicamente es un modelo de machine learning enfocado a todo lo relacionado con el lenguaje humano
 
@@ -8,9 +10,11 @@ los NLP tiene tareas basntate claras:
 - generar texto
 - extraer una respuesta de un texto 
 
+
 * Que es un LLM
 basicamente son similares a los modelos NLP pero son mucho mas grandes y con mas entrenamiento y mas capacidada parra realizar
 tareas no especificas
+
 
 ** Caracteristicas de un LLM
 - Escalado
@@ -27,6 +31,7 @@ tareas no especificas
 * Transformer
 los transformer son la arquitectura en que los LLM estan basados son NLP gigantes multiproposito pueden autocompletas palabras o intentar predecir oraciones futuras
 asi como intentar predecir palabras especificas en una oracion
+
 
 ** tipos de aprendizaje
 existen 2 tipos principales de aprendizaje cada uno con sus ventajas y desventajas de una forma mas generalizada sabemos esto:
@@ -62,3 +67,37 @@ para traducir cosas o realizar tareas especificas
 similar a la capa de atencion la mascara de atencion sirve para poder dar mas enfasis o quitar enfasis a palabras especificas
 
 
+* Cuantizacion
+la cuantizacion es la compresion del modelo se puede tener un modelo el cual pese muchisimo menos dando resultados
+similares al modelo completo.
+
+
+** Como funciona?
+la Cuantificazion funciona reduciendo la cantidad de bits de informacion se almacenan de cada dato haciendo que de
+mas presicion en cada uno de estos un ejemplo seria si un dato normalmente se guarda dentro de 16 bits entonces
+si se este mismo se comprime se puede llegar a usar 8 bits o incluso menos (aun que esto no es tan recomendable)
+
+
+** Nomenglaturas
+terminologias que se usan para poder entender como y para que esta comprimido el modelo en cuestion son llamadas
+*nomenglaturas*
+
+| Nomenglatura  | Descripcion                             |
+|---------------+-----------------------------------------|
+| BF16 / FP16   | Es el modelo sin ninguna compresion     |
+| MLX           | Compresion diseñada para chips de Apple |
+| GGUF          | Para cualquier tipo de equipo           |
+| AWQ           | Formato viejo para compresion de Apple  |
+| GTPQ          | Para tarjetas NVIDIA                    |
+| FP8           | para tarjetas nuevas                    |
+| NVFP4 / MXFP4 | Para BlackWell                          |
+
+
+** Cosas a considerar
+entonces porque no siempre escojemos el formato mas comprimido de todos? para responder esta pregunta 
+es necesario entender que no siempre mas pequeño significa mas rapido puede ser que el el procesador con el que
+se trabaje no tenga rutinas para manejar el numero de bits en que se encuentran en el formato entonces el estos
+se descomprimen y luego se opera con ellos esto da como resultado que el proceso llegue incluso a alentarse!
+
+tambien entre mas comprimido sea el modelo mas tiende a atontarse lo cual en tareas sensibles no es aceptable tener
+un margen de error alto.
