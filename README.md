@@ -36,3 +36,4 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 - arquitectura RAG(articulo): https://arxiv.org/pdf/2601.05264
 - building a RAG: https://huggingface.co/blog/ngxson/make-your-own-rag
 - BD Vector theory (articulo): https://dbs-research.github.io/pdf/2024_vector.pdf
+- Compression laws LLM (articulo): https://arxiv.org/pdf/2504.04342
