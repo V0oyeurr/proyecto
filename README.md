@@ -23,8 +23,8 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 ## referencias
 ### primera semana:
 - hugging face LLM curso: https://huggingface.co/learn/llm-course/chapter1/1?utm_source=chatgpt.com
-- transformers: https://arxiv.org/abs/1706.03762?utm_source=chatgpt.com
+- transformers (articulo): https://arxiv.org/abs/1706.03762?utm_source=chatgpt.com
 - Hugging Face Tokenizers: https://huggingface.co/docs/tokenizers/main/index?utm_source=chatgpt.com
 - Hugging Face Quantization: https://huggingface.co/docs/bitsandbytes/main/en/index?utm_source=chatgpt.com
 - pytorch cuda: https://docs.pytorch.org/docs/2.13/cuda.html?utm_source=chatgpt.com
-
+- arquitectura RAG(articulo): https://arxiv.org/pdf/2601.05264

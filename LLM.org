@@ -101,3 +101,9 @@ se descomprimen y luego se opera con ellos esto da como resultado que el proceso
 
 tambien entre mas comprimido sea el modelo mas tiende a atontarse lo cual en tareas sensibles no es aceptable tener
 un margen de error alto.
+
+
+* Pensamientos
+RAG son LLM pero si es que el modelo no es LLM aun asi podremos generar una arquitectura para el uso de una fuente
+de datos externa para poder realizar esto mismo? me explico lo que agus quiere es un LLM? o un NLP? porque un LLM
+esta hecho para engrentar tareas no especificas esto da como 
