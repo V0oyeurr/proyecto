@@ -19,7 +19,11 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 - streaming de respuestas
 - 89gb de ram y tal vez 24gb de vram
 - el modelo se corre de forma local
-
+- system prompts
+- inyeccion de prompts
+- protocolo http de comunicaciones de IAs
+- MCP
+- sandbox contenedor
 
 ## referencias
 - hugging face LLM curso: https://huggingface.co/learn/llm-course/chapter1/1?utm_source=chatgpt.com

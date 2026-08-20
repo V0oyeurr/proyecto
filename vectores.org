@@ -1,0 +1,5 @@
+#+title:Bases de datos Vectores Investigacion
+#+author:Alberto Emiliano Solis Santos
+
+* Bases de datos vectoriales
+las bases de datos vectoriales son aquellas que su contenido son vectores $k = [6,7]$
