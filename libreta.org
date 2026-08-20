@@ -1,0 +1,17 @@
+#+title:Apuntes
+#+author:Alberto Emiliano Solis Santos
+
+* Arquitectura a usar
+el proyecto sera una LLM usando arquitectura RAG al ser mas economica en tiempo y nos ahorra el tener que entrenarla
+
+* Base de datos vectorial
+aun falta por estudiar las opciones a utilizar pero eso no excenta de investigarlas!
+- Qdrant: https://qdrant.tech/
+- Pinecone: https://www.pinecone.io/
+- pgvector: https://github.com/pgvector/pgvector
+estas son mecionadas en el articulo [[https://dbs-research.github.io/pdf/2024_vector.pdf][Vector theory]]
+
+* Pensamientos
+- Como se que tan largo necesito que sea el modelo?
+
+  

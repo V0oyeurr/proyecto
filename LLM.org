@@ -99,6 +99,9 @@ es una arquitectura que se basa en tener una fuentes de datos en tiempo real la 
 
 
 * Pensamientos
-RAG son LLM pero si es que el modelo no es LLM aun asi podremos generar una arquitectura para el uso de una fuente de datos externa para poder realizar esto mismo? me explico lo que agus quiere es un LLM? o un NLP? porque un LLM esta hecho para engrentar tareas no especificas esto da como. segun el siguiente articulo [[https://arxiv.org/pdf/2601.05264][engineering a RAG]] los modelos RAG no requieren entrenamiento?
+- Note taken on [2026-08-20 Thu 07:44] \\
+  Por lo visto los RAGs no requieren de fine-tunning es mas el mismo fin-tunning puede atontarlos y que olviden cosas de su preentrenamiento
+RAG son LLM pero si es que el modelo no es LLM aun asi podremos generar una arquitectura para el uso de una fuente de datos externa para poder realizar esto mismo? +me explico lo que agus quiere es un LLM? o un NLP? porque un LLM esta hecho para engrentar tareas no especificas esto da como. segun el siguiente articulo [[https://arxiv.org/pdf/2601.05264][engineering a RAG]] los modelos RAG no requieren entrenamiento?+
 
 ="Initially, the necessity for costly and time-consuming model retraining is eliminated by ensuring that information currency is maintained through real-time access"=
+

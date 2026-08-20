@@ -21,12 +21,6 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 - el modelo se corre de forma local
 
 
-## motores de bases de datos vectoriales
-- Qdrant: https://qdrant.tech/
-- Pinecone: https://www.pinecone.io/
-- pgvector: https://github.com/pgvector/pgvector
-
-
 ## referencias
 - hugging face LLM curso: https://huggingface.co/learn/llm-course/chapter1/1?utm_source=chatgpt.com
 - transformers (articulo): https://arxiv.org/abs/1706.03762?utm_source=chatgpt.com
