@@ -35,3 +35,4 @@ y de inferencia viene la capacidad de los tensores y todo eso va con las capacid
 - building a RAG: https://huggingface.co/blog/ngxson/make-your-own-rag
 - BD Vector theory (articulo): https://dbs-research.github.io/pdf/2024_vector.pdf
 - Compression laws LLM (articulo): https://arxiv.org/pdf/2504.04342
+- Build a RAG with pgvector and ollama https://mydeveloperplanet.com/2025/01/22/implement-rag-with-pgvector-langchain4j-and-ollama/

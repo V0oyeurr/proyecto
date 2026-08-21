@@ -14,4 +14,6 @@ estas son mecionadas en el articulo [[https://dbs-research.github.io/pdf/2024_ve
 * Pensamientos
 - Como se que tan largo necesito que sea el modelo?
 
-  
+
+** Investigar
+- distancia euclidiana

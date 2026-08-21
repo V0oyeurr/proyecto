@@ -3,3 +3,5 @@
 
 * Que son?
 las bases de datos vectoriales son aquellas que su contenido son vectores $k = [6,7]$ esto es util para guardar todo tipo de informacion como lo podrian ser imagenes de una forma mucho mas eficiente en almacenamiento y manteniendo su informacion como lo podrian ser su el numero 10 significa algo especifico en un indice especifico
+
+* Funcionamiento
